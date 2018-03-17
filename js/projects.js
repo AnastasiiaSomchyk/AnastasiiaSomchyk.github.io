@@ -62,7 +62,7 @@ var projects = [
   function writeToDom(id, element){
     var currentProjectDiv = document.getElementById(id);
     currentProjectDiv.appendChild(element)
-  }
+  };
 
 
 
@@ -75,7 +75,7 @@ var projects = [
     //1. start looping through each project
     //myProjects.forEach(a function goes here)
     myProjects.forEach(function(project){
-   
+     console.log(project)
       
       var myCard = document.createElement("div");
       var projectImage = document.createElement("img");

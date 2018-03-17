@@ -207,3 +207,20 @@ font-weight: 10;
 }
 
 /* Project Page */
+
+/* Blog page  */
+
+.blog-cards-layout{
+    padding:10px;
+    height:300px;
+    width:300px;
+    border:solid 1px pink;
+    background: grey;
+}
+
+.blog-cards{
+    border: 1px solid blue;
+    display: flex;
+   
+    width: 100%
+}
