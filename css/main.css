@@ -180,7 +180,30 @@ font-weight: 10;
 .work-one{
  margin-top:45px;;   
  padding: 10px;
- height: 30%;;
-
-   
+ height: 30%;;  
 }
+
+
+/* Project Page */
+
+.project-layout{
+    border: 1px solid blue;
+    display: flex;
+   
+    width: 100%
+}
+
+.my-card{
+    padding:10px;
+    height:300px;
+    width:300px;
+    border:solid 1px pink;
+    background: grey;
+}
+
+.my-card > img {
+    height:70%;
+    width:100%;
+}
+
+/* Project Page */
