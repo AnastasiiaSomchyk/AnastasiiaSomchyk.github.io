@@ -61,7 +61,7 @@ var projects = [
 //WRITING WHAT YOUR FUNCTION WILL DO
   function writeToDom(id, element){
     var currentProjectDiv = document.getElementById(id);
-    currentProjectDiv.appendChild(element)
+    currentProjectDiv.innerHTML += element;
   };
 
 
@@ -75,16 +75,17 @@ var projects = [
     //1. start looping through each project
     //myProjects.forEach(a function goes here)
     myProjects.forEach(function(project){
-     console.log(project)
+      var myCard = `<div class="my-card">`
+
+ 
+      myCard += `<img src="${project.imageUrl}" alt="">`
+      myCard += `<h1>${project.title}</h1>`
+      myCard += `<p> ${project.description}</p>`
+      myCard += `</div>`
+    
+
       
-      var myCard = document.createElement("div");
-      var projectImage = document.createElement("img");
-      var description = document.createTextNode(project.description);
-      
-      projectImage.src = project.imageUrl
-      myCard.appendChild(projectImage);
-      myCard.appendChild(description);
-      myCard.className = "my-card"
+     
       writeToDom(project.id, myCard);
     })
 
@@ -100,4 +101,5 @@ var projects = [
 
 
 
-
+  // var projectImage = document.createElement("img");
+  // var description = document.createTextNode(project.description);
