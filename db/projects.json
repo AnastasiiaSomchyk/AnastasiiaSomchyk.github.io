@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "id": "project1",
+      "title": "My Project #0",
+      "imageUrl": "https://pbs.twimg.com/media/CcY04LOUEAELkgN.jpg",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "githubUrl":
+        "https://github.com/AnastasiiaSomchyk/AnastasiiaSomchyk.github.io"
+    },
+
+    {
+      "id": "project2",
+      "title": "My Project #1",
+      "imageUrl": "https://pbs.twimg.com/media/CcY04LOUEAELkgN.jpg",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "githubUrl":
+        "https://github.com/AnastasiiaSomchyk/AnastasiiaSomchyk.github.io"
+    },
+
+    {
+      "id": "project3",
+      "title": "My Project #2",
+      "imageUrl": "https://pbs.twimg.com/media/CcY04LOUEAELkgN.jpg",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "githubUrl":
+        "https://github.com/AnastasiiaSomchyk/AnastasiiaSomchyk.github.io"
+    }
+  ]
+}
