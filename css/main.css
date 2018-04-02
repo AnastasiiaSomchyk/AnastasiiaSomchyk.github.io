@@ -193,7 +193,6 @@ span {
 /* Project Page */
 
 .project-layout {
-  border: 1px solid blue;
   display: flex;
   position: relative;
   justify-content: space-around;
@@ -202,15 +201,18 @@ span {
 
 .my-card {
   font-family: Dosis, arial, sans-serif;
+  color: rgba(255, 255, 255, 0.927);
   padding: 10px;
-  height: 400px;
+  height: 450px;
   width: 300px;
-  border: solid 1px pink;
-  background: grey;
+  border: solid 1px gray;
+}
+h1 {
+  font-size: 20px;
+  letter-spacing: 0.2em;
 }
 
 .project-img {
-  height: 70%;
   width: 100%;
 }
 

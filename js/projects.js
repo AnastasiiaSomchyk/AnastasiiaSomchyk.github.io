@@ -27,6 +27,7 @@ const createProjectCards = myProjects => {
           <img class="project-img" src="${project.imageUrl}">
           <h1>${project.title}</h1>
           <p> ${project.description}</p>
+          <a href="${project.githubUrl}">link to GitHub Repo</a>
       </div>
      `;
     writeToDom("projects", myCard);
