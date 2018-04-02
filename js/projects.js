@@ -1,21 +1,3 @@
-
-/*
--> An array looks like this
-var projects = [ ]
-
--> An array can have objects inside of them.
-
-var projects = [ {}, {}, {}, {}]
-
--> Individual items in an array can be accessed by their index value.
-
-var projects = [ {}, {}, {}, {}, ...]
-                  0   1   2   3 ...
-
-
-*/
-
-
 /*
 
 Create two functions:
@@ -29,77 +11,45 @@ The last line of this file should be: createProjectCards();
 
 */
 
-
-
-var projects = [
-    {
-      id: "project1", 
-      title: "Cool Project", 
-      imageUrl: "http://gotoflashgames.com/files/file/033.jpg", 
-      description: "This is the best project",
-      githubUrl: "https://github.com/nss-evening-cohort-7/jsArrays"
-      },
-
-    {
-        id: "project2", 
-        title: "Project 2", 
-        imageUrl: "http://gotoflashgames.com/files/file/033.jpg", 
-        description: "This is the best project",
-        githubUrl: "https://github.com/nss-evening-cohort-7/jsArrays"
-    },
-
-    {
-        id: "project3", 
-        title: "Project 3", 
-        imageUrl: "https://pixel.nymag.com/imgs/daily/vulture/2017/11/14/14-the-room-tommy-wiseau.w710.h473.jpg", 
-        description: "This is the best project",
-        githubUrl: "https://github.com/nss-evening-cohort-7/jsArrays"
-    }
-  ];
-
-
 //WRITING WHAT YOUR FUNCTION WILL DO
-  function writeToDom(id, element){
-    var currentProjectDiv = document.getElementById(id);
-    currentProjectDiv.innerHTML += element;
-  };
+const writeToDom = (id, element) => {
+  let currentProjectDiv = document.getElementById(id);
+  currentProjectDiv.innerHTML += element;
+};
 
+//an array of projects
+const createProjectCards = myProjects => {
+  //1. start looping through each project
+  //myProjects.forEach(a function goes here)
+  myProjects.forEach(project => {
+    let myCard = `
+      <div class="my-card" id=${project.id}>
+          <img class="project-img" src="${project.imageUrl}">
+          <h1>${project.title}</h1>
+          <p> ${project.description}</p>
+      </div>
+     `;
+    writeToDom("projects", myCard);
+  });
+};
 
+function executeThisCodeIfXHRFails() {
+  console.log("An error occurred");
+}
 
-  
+function executeThisCodeAfterFileLoaded() {
+  const data = JSON.parse(this.responseText);
+  console.log("this. ");
+  createProjectCards(data.projects); // BUILD YOUR DOMSTRING HERE
+}
 
-                              //an array of projects
-  function createProjectCards(myProjects){
+const startApplication = () => {
+  var myRequest = new XMLHttpRequest();
 
-    
-    //1. start looping through each project
-    //myProjects.forEach(a function goes here)
-    myProjects.forEach(function(project){
-      var myCard = `<div class="my-card">`
+  myRequest.addEventListener("load", executeThisCodeAfterFileLoaded);
+  myRequest.addEventListener("error", executeThisCodeIfXHRFails);
+  myRequest.open("GET", "../db/projects.json");
+  myRequest.send();
+};
 
- 
-      myCard += `<img src="${project.imageUrl}" alt="">`
-      myCard += `<h1>${project.title}</h1>`
-      myCard += `<p> ${project.description}</p>`
-      myCard += `</div>`
-    
-
-      
-     
-      writeToDom(project.id, myCard);
-    })
-
-
-   
-  }
-
-  createProjectCards(projects)
-
-
-
-
-
-
-
-  // var projectImage = document.createElement("img");
-  // var description = document.createTextNode(project.description);
+startApplication();
