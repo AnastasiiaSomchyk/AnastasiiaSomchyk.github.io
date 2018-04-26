@@ -222,11 +222,7 @@ h1 {
 
 .blog-cards-layout {
   font-family: Dosis, arial, sans-serif;
-  display: flex;
   justify-content: space-around;
-  width: 100%;
-  height: 500px;
-  flex-direction: row;
 }
 
 .blog-cards-layout h1 {
@@ -236,9 +232,12 @@ h1 {
   text-decoration: underline gray;
 }
 
-.card {
-  min-width: 200px;
-  max-width: 300px;
+.card{
+  overflow: scroll;
+  height: 350px;
+  margin: 70px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
 }
 
 .blog-cards-layout,
@@ -251,3 +250,4 @@ p {
   letter-spacing: 0.1em;
   overflow: scroll;
 }
+

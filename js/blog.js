@@ -22,7 +22,7 @@ const writeToDom = (id, element) => {
 const createBlogPosts = myBlogCards => {
   myBlogCards.forEach(blog => {
     let cardToPost = `
-           <div class="card">
+    <div class="card col-md-3 offset-md-3">
                      <h1>${blog.title}</h1>
                      <h2> ${blog.date}</h2>
                      <p> ${blog.post}</p>
