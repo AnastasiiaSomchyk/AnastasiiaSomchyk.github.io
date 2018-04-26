@@ -1,7 +1,14 @@
 {
   "blogs": [
     {
-      "id": "blog1",
+      "id":"blog1",
+      "title":"XHR",
+      "date":"04/3/18",
+      "post":"Last week we were going through XHR request and Callback Functions. XHR is a way to get data back from a server, but under the hood to get data back usually take some time. In this case we need to use Callback Functions that allow us to run code synchronously. I use XHR Request in my project “Solar System”. I stored data for the app in JSON file. Why JSON? Because when exchanging data between a browser and a server, the data can only be text. JSON is text, and we can convert any JavaScript object into JSON, and send JSON to the server.We can also convert any JSON received from the server into JavaScript objects.This way we can work with the data as JavaScript objects, with no complicated parsing and translations."
+    },
+
+    {
+      "id": "blog2",
       "title": "Travel Diary",
       "date": "03/27/18",
       "post":
@@ -9,7 +16,7 @@
     },
 
     {
-      "id": "blog2",
+      "id": "blog3",
       "title": "Blog Section",
       "date": "03/19/2018",
       "post":
@@ -17,7 +24,7 @@
     },
 
     {
-      "id": "blog3",
+      "id": "blog4",
       "title": "Personal Bio Site",
       "date": "03/13/2018",
       "post":
