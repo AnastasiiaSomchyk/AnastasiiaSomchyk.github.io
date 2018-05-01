@@ -2,32 +2,38 @@
   "blogs": [
     {
       "id":"blog1",
+      "title":"Chatty group project",
+      "date":"05/01/18",
+      "post": "Last week, I begin working on a new project “Chatty-Papaphobia”. It was my 1st experience of working as a team with Cohort 7. I was very lucky with my team. Girls were very supportive and patient to me. I was struggling with github issue tickets, I just couldn’t understand why we need it, what information should I type in and what is the purpose of it. Also, I have never used “git fetch” in Terminal window before. All of it would slow down my participation in a group, but girls walked me through each step that I was needed so I was back on track. Our project was required to use Browserify, Grunt, Bootstrap and JavaScript modules. First I chose to work on input function that, also, includes “send btn”, that supposed to be disable if input is empty. I stuck on this “ btn Function “ for almost a 3 hour. I felt like I gain some “super power of staring” at my code, without any logical explanation bc it seems like it should work but its not working. I decided to ask for help our instructor Zoë . It’s took her couple minutes to figure out what was the issue... God Save the Queen! Lesson learned, if you stuck don’t struggle on your own, ask for help. It will make you move forward."
+    },
+    {
+      "id":"blog2",
       "title":"Task Runners and Browserify",
       "date":"04/24/18",
       "post":"Another week of Task Runners and Browserify, but this time we are changing whole code structure. It's getting harder to follow new rules for coding. Now we use so many folders! One folder for the functions another folder for xhr request, separate folder data and separate folder for eventListeners. To connect all of this separate files we are using module.exports. I feel like it is getting a bit challenging for me. It is so many folder and I need to keep them organized not only in my code but ,also, in my head. However, i mage progress with grunt. We become friends. I don't get that much errors as I had before. I guess my code become better and cleaner."
     },
     {
-      "id":"blog2",
+      "id":"blog3",
       "title":"Task Runners and Browserify",
       "date":" 04/17/18",
       "post":"This week, we learned about Task Runners and Browserify. Browserify is a tool for compiling node-flavored common js modules for the browser. Browserify is helping organize your code and use third-party libraries. If you need to install any packages it is easy to do with npm.  This is something that I've been working with before so I felt pretty confident about new topic. Same day we begin to use Grunt, the java script Task Runner. When you running grunt it helps to keep your code very clean and well organized, grunt will tell you in terminal window if you have any errors so you can alway fix them. Thus, it will help to compile code with the less stress. Less stress they say... but it's not about me. For some reason Task Runner in not friendly to me. In class  we begin new project, I was following my teacher's code and was running grunt in my lib folder, but terminal would show me  so many errors that I was not able to fixe all of them and follow my instructor at the same time. That night I left class very frustrated..."
     },
     {
-      "id":"blog3",
+      "id":"blog4",
       "title":"Bootstrap",
       "date":"04/09/18",
       "post":"This past week, we learned about Bootstrap. Bootstrap is a free and open-source front-end library for designing websites and web applications. It's templates that are made base on HTML and CSS. It's come in handy if you need to build an responsive app or website but you don't really have time for that. In this case Bootstrap is an awesome tool to know. To use this library is super easy, first step is: Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS. Then, Copy-paste two more links, jQuery first, then Bootstrap JS. Place the following <script>s near the end of your pages, right before the closing </body> tag, to enable them. That's it, Bootstrap is ready for use. To begin work with the library, simply copy class that will feet your new project and paste it in to your html structure."
     },
 
     {
-      "id":"blog4",
+      "id":"blog5",
       "title":"XHR",
       "date":"04/3/18",
       "post":"Last week we were going through XHR request and Callback Functions. XHR is a way to get data back from a server, but under the hood to get data back usually take some time. In this case we need to use Callback Functions that allow us to run code synchronously. I use XHR Request in my project “Solar System”. I stored data for the app in JSON file. Why JSON? Because when exchanging data between a browser and a server, the data can only be text. JSON is text, and we can convert any JavaScript object into JSON, and send JSON to the server.We can also convert any JSON received from the server into JavaScript objects.This way we can work with the data as JavaScript objects, with no complicated parsing and translations."
     },
 
     {
-      "id": "blog5",
+      "id": "blog6",
       "title": "Travel Diary",
       "date": "03/27/18",
       "post":
@@ -35,7 +41,7 @@
     },
 
     {
-      "id": "blog6",
+      "id": "blog7",
       "title": "Blog Section",
       "date": "03/19/2018",
       "post":
@@ -43,7 +49,7 @@
     },
 
     {
-      "id": "blog7",
+      "id": "blog8",
       "title": "Personal Bio Site",
       "date": "03/13/2018",
       "post":
