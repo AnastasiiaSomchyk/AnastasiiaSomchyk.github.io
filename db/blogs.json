@@ -2,60 +2,66 @@
   "blogs": [
     {
       "id": "blog1",
+      "title": "Firebase",
+      "date": "6/5/18",
+      "post": "Firebase is a web and mobile application platform which has tools and infrastructure designed in such a way that helps any developer to create high functioning and high quality apps. Firs of all it is: 1. Backend-as-a-service: Cloud-hosted database. 2. Server + API + datastore. 3. Great for front-end developers to get up and running.4. It is not for large, enterprise applications. 5. It is not the only way of saving data and performing CRUD operations. It handles most of the operations for your apps like storage, crash reporting, real time database, authentication, hosting etc. "
+    },
+    {
+      "id": "blog2",
       "title": "Promises",
       "date": "5/22/18",
       "post": "This week we begin from Promises. A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future. There are a great example of what is Promises: When you go to a restaurant, the hostess gives you a buzzer for your table. When the table is ready, the buzzer buzzes. You respond by sitting at the table.The buzzer is a promise. It buzzes when the promise resolves, or is ready. The buzz is your handler."
     },
     {
-      "id": "blog2",
+      "id": "blog3",
       "title": "jQuery",
       "date": "05/15/18",
       "post": "This week we started from jQuery. It is a JavaScript library that helps to write your code much simpler way. jQuery simplifies the way of writing DOM manipulation, DOM Events, AJAX/Data retrieval and it is great tool for different Effects and Animation. To begin using jQuery we need to place link with the src=“jQuery”on a button of the html file, right before the closing tag, to enable it. After, you can start using its library. We easy can find any method that we need by using jQuery Cheat Sheet. I’m very exited to begin work with a new way of writing my code. This following week, we gonna try new library on a new project “Ex Tracker”. I have a feeling that it’s gonna be very interesting and fun piece of work."
     },
     {
-      "id": "blog3",
+      "id": "blog4",
       "title": "Chatty group project",
       "date": "05/01/18",
       "post": "Last week, I begin working on a new project “Chatty-Papaphobia”. It was my 1st experience of working as a team with Cohort 7. I was very lucky with my team. Girls were very supportive and patient to me. I was struggling with github issue tickets, I just couldn’t understand why we need it, what information should I type in and what is the purpose of it. Also, I have never used “git fetch” in Terminal window before. All of it would slow down my participation in a group, but girls walked me through each step that I was needed so I was back on track. Our project was required to use Browserify, Grunt, Bootstrap and JavaScript modules. First I chose to work on input function that, also, includes “send btn”, that supposed to be disable if input is empty. I stuck on this “ btn Function “ for almost a 3 hour. I felt like I gain some “super power of staring” at my code, without any logical explanation bc it seems like it should work but its not working. I decided to ask for help our instructor Zoë . It’s took her couple minutes to figure out what was the issue... God Save the Queen! Lesson learned, if you stuck don’t struggle on your own, ask for help. It will make you move forward."
     },
     {
-      "id": "blog4",
+      "id": "blog5",
       "title": "Task Runners and Browserify",
       "date": "04/24/18",
       "post": "Another week of Task Runners and Browserify, but this time we are changing whole code structure. It's getting harder to follow new rules for coding. Now we use so many folders! One folder for the functions another folder for xhr request, separate folder data and separate folder for eventListeners. To connect all of this separate files we are using module.exports. I feel like it is getting a bit challenging for me. It is so many folder and I need to keep them organized not only in my code but ,also, in my head. However, i mage progress with grunt. We become friends. I don't get that much errors as I had before. I guess my code become better and cleaner."
     },
     {
-      "id": "blog5",
+      "id": "blog6",
       "title": "Task Runners and Browserify",
       "date": " 04/17/18",
       "post": "This week, we learned about Task Runners and Browserify. Browserify is a tool for compiling node-flavored common js modules for the browser. Browserify is helping organize your code and use third-party libraries. If you need to install any packages it is easy to do with npm.  This is something that I've been working with before so I felt pretty confident about new topic. Same day we begin to use Grunt, the java script Task Runner. When you running grunt it helps to keep your code very clean and well organized, grunt will tell you in terminal window if you have any errors so you can alway fix them. Thus, it will help to compile code with the less stress. Less stress they say... but it's not about me. For some reason Task Runner in not friendly to me. In class  we begin new project, I was following my teacher's code and was running grunt in my lib folder, but terminal would show me  so many errors that I was not able to fixe all of them and follow my instructor at the same time. That night I left class very frustrated..."
     },
     {
-      "id": "blog6",
+      "id": "blog7",
       "title": "Bootstrap",
       "date": "04/09/18",
       "post": "This past week, we learned about Bootstrap. Bootstrap is a free and open-source front-end library for designing websites and web applications. It's templates that are made base on HTML and CSS. It's come in handy if you need to build an responsive app or website but you don't really have time for that. In this case Bootstrap is an awesome tool to know. To use this library is super easy, first step is: Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS. Then, Copy-paste two more links, jQuery first, then Bootstrap JS. Place the following 'script' s near the end of your pages, right before the closing </body> tag, to enable them. That's it, Bootstrap is ready for use. To begin work with the library, simply copy class that will feet your new project and paste it in to your html structure."
     },
     {
-      "id": "blog7",
+      "id": "blog8",
       "title": "XHR",
       "date": "04/3/18",
       "post": "Last week we were going through XHR request and Callback Functions. XHR is a way to get data back from a server, but under the hood to get data back usually take some time. In this case we need to use Callback Functions that allow us to run code synchronously. I use XHR Request in my project “Solar System”. I stored data for the app in JSON file. Why JSON? Because when exchanging data between a browser and a server, the data can only be text. JSON is text, and we can convert any JavaScript object into JSON, and send JSON to the server.We can also convert any JSON received from the server into JavaScript objects.This way we can work with the data as JavaScript objects, with no complicated parsing and translations."
     },
     {
-      "id": "blog8",
+      "id": "blog9",
       "title": "Travel Diary",
       "date": "03/27/18",
       "post": "Last week I started new project Travel Diary with my awesome team Venus Flytrap. The main goal was to create array of objects then print each object to the DOM. Also, each object supposed to have an input section that would aloud user to add notes. Moreover, every time user add note it would appear at the bottom of the page as a new separate box which would include note itself and country location. During this project I was struggling with pulling specific data from input and printing it to the notes section. I spend whole day trying to figure out how to deal with it. Finally I decided to take a break...Magic happen during my break. I suddenly realize that I can use data attributes that would aloud me to store and reuse specific information. Lesson learned: if you stuck on coding then it’s time to take a break."
     },
     {
-      "id": "blog9",
+      "id": "blog10",
       "title": "Blog Section",
       "date": "03/19/2018",
       "post": "Finally finished with my blog section. Still need to do a lot of work, but my function 'writeToDom' is working. Also, I add some styling to it which made my 'grid' look better."
     },
     {
-      "id": "blog10",
+      "id": "blog11",
       "title": "Personal Bio Site",
       "date": "03/13/2018",
       "post": "Working on my personal page. Decided to build a new portfolio bc old one was not responsive in a browser. According to portfolio requirements it supposed to be build with HTML5 and CSS. Sounds easy but since I taught myself to work with the bootstrap it took me some time to refresh my knowledge with flex box. It was a good practice for me to go over basic material"
